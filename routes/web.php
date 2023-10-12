@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 
-Route::resource('/bola', [PemainController::class, 'index']);
+Route::get('/bola', [PemainController::class, 'index']);
